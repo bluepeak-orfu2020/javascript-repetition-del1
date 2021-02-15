@@ -1,0 +1,2 @@
+Uppgift 10. Sätta upp ett NPM-projekt och installera paketet "awesome-dev-jokes" som en runtime dependency.
+            Uppgiften kommer verifieras genom att innehållet i din package.json-fil verifieras.

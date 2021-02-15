@@ -1,0 +1,14 @@
+{
+  "name": "uppgift-10",
+  "version": "1.0.0",
+  "description": "Uppgift 10. Sätta upp ett NPM-projekt och installera paketet \"awesome-dev-jokes\" som en runtime dependency.\r             Uppgiften kommer verifieras genom att innehållet i din package.json-fil verifieras.",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Hello World!\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "awesome-dev-jokes": "^1.0.3"
+  }
+}

@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sections {
+  width: 300px;
+}
+
+.sections > div {
+  background-color: palegreen;
+}
+
+.sections > div > button {
+  width: 100%;
+  background-color: palevioletred;
+  border: none;
+  text-align: left;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.sections > div > button:hover {
+  background-color: hsl(340, 57%, 74%);
+}
+
+.sections > div > div {
+  padding: 5px;
+  display: none;
+}
+
+.sections > div > button.open + div {
+  display: block;
+}
